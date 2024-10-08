@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Body
 from starlette.responses import JSONResponse
 
+
 app = FastAPI()
 
 messages = []

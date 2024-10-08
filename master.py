@@ -5,6 +5,7 @@ from starlette.responses import JSONResponse
 app = FastAPI()
 
 messages = []
+
 # appends a message into the in-memory list
 @app.post("/append_msg")
 async def append_msg(data=Body()):

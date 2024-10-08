@@ -9,3 +9,4 @@ replicated_messages = []
 @app.get("/show_messages")
 async def show_msgs():
     return {"messages": replicated_messages}
+
